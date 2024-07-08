@@ -1,0 +1,316 @@
+
+#sıcaklık {
+  margin-left: 4%;
+  margin-top: 10%;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(13, 156, 13);
+  border-radius: 50%;
+}
+#ekran{
+  width: 100vw;
+  height: 100vh;
+  background-color:rgb(0, 0, 0);
+}
+#yarıçap{
+  width: 50%;
+  margin-left: 50%;
+  height: 1%;
+  background-color:black ;
+  margin-top: 49.7%;
+  position: absolute;
+  transform-origin: left center;
+  transform: rotate(0deg);
+  animation: rotate 5s linear infinite;
+}
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(-360deg);
+  }
+}
+#Radar {
+  justify-content: center;
+  display:flex;
+  align-items: center;
+  position: absolute;
+  width: 1200px;
+  height: 1200px;
+  border-radius: 50%;
+  
+  border: 3px solid green;
+}
+
+#Radarx {
+  
+  justify-content: center;
+  margin-top: 3%;
+  margin-left: 25% ;
+  display:flex;
+  overflow: hidden;
+  height: 600px;
+  width: 1250px;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+}
+
+#daire1 {
+  border: 3px solid green;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 800px;
+  width: 800px;
+  position: absolute;
+  
+  border-radius: 50%;
+}
+#daire2 {
+  border: 3px solid green;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  position: absolute; 
+  border-radius: 50%;
+}
+#daire3 {
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  position: absolute; 
+  border-radius: 50%;
+}
+#Tarih{
+  border:2px solid green;
+  position:absolute;
+  margin-left: 80%;
+  margin-top: 3%;
+  height: 80px;
+  width: 280px;
+  padding: 10px;
+}
+#ip{
+  border:2px solid green;
+  position:absolute;
+  margin-left: 80%;
+  margin-top: 9%;
+  width: 300px;
+}
+#radaralt{
+  margin-top: 28%;
+  margin-left: 26% ;
+  overflow: hidden;
+  height: 100px;
+  width: 1200px;
+  position: absolute;
+  
+}
+#nesne{
+  display: flex;
+  align-items: center;
+  border:2px solid green;
+  position: absolute;
+  height: 90px;
+  width: 400px;
+  background-color: black;
+  margin-top: 5px;
+  margin-left: 35%;
+}
+#uzaklık{
+  display: flex;
+  align-items: center;
+  border:2px solid green;
+  margin-left: 5px;
+  position: absolute;
+  height: 90px;
+  width: 400px;
+  background-color: black;
+  margin-top: 5px;
+}
+#derece{
+  display: flex;
+  align-items: center;
+  border:2px solid green;
+  position: absolute;
+  height: 90px;
+  width: 350px;
+  background-color: black;
+  margin-top: 5px;
+  margin-left: 70%;
+}
+#chatgpt{
+  border:2px solid green;
+  position:absolute;
+  margin-left: 70%;
+  margin-top: 900px;
+  width: 600px;
+  height: 300px;
+}
+#resim{
+  border:2px solid green;
+  position:absolute;
+  margin-left: 30%;
+  margin-top: 900px;
+  width: 900px;
+  height: 300px;
+  text-align: center;
+}
+#led{
+  border:2px solid green;
+  position:absolute;
+  margin-left: 5%;
+  margin-top: 970px;
+  width: 350px;
+  height: 200px;
+  padding-left: 40px;
+}
+#radarçizgi{
+  margin-top: -4px;
+  margin-left: 589px;
+  position: absolute;
+  width: 590px;
+  height: 4px;
+  background-color: red;
+  transform-origin: left center;
+  
+}
+
+
+span{
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+#Resim1{
+  color: green;
+  font-size: 30px;
+  text-align: center;
+}
+.button {
+
+  display: inline-block;
+
+  border-radius: 4px;
+
+  background-color: #f4511e;
+
+  border: none;
+
+  color: #FFFFFF;
+
+  text-align: center;
+
+  font-size: 1px;
+
+  padding: 20px;
+
+  width:100px;
+
+  transition: all 0.5s;
+
+  cursor: pointer;
+
+  margin: 10px;
+}
+
+.button span {
+
+  cursor: pointer;
+
+  display: inline-block;
+
+  position: relative;
+
+  transition: 0.5s;
+}
+
+.button span:after {
+
+  content: '\00bb';
+
+  position: absolute;
+
+  opacity: 0;
+
+  top: 0;
+
+  right: -20px;
+
+  transition: 0.5s;
+}
+
+.button:hover span {
+
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+
+  opacity: 1;
+
+  right: 0;
+}
+#mesaj{
+  color: green;
+  font-size: 30px;
+  text-align: center;
+}
+/* Toggle switch CSS */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
